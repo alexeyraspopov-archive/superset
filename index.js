@@ -13,3 +13,5 @@ function difference(a, b){
 function product(a, b){
 	return new Set([[x, y] for (x of a) for (y of b)]);
 }
+
+module.exports = { intersection, union, difference, product };
